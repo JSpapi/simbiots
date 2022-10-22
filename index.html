@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- !NAVIGATION -->
+    <div class="nav">
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./images/icons/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="navbar__links">
+            <ul class="navbr__list">
+              <li class="navbr__item">
+                <a href="./index.html" class="navbar__link">Home</a>
+              </li>
+              <li class="navbr__item">
+                <a href="#simbiots" class="navbar__link">Simbiotes</a>
+              </li>
+              <li class="navbr__item">
+                <a href="./comics.html" class="navbar__link">Comics</a>
+              </li>
+              <li class="navbr__item">
+                <a href="#donation" class="navbar__link">Donation</a>
+              </li>
+              <li class="navbr__item">
+                <a href="./films.html" class="navbar__link">Films</a>
+              </li>
+            </ul>
+            <form class="navbar__search">
+              <input
+                class="navbar__search-input"
+                type="text"
+                placeholder="Let there be Carnage"
+              />
+              <button class="navbar__search-btn">
+                <img src="./images/icons/search.svg" alt="search" />
+              </button>
+            </form>
+          </div>
+
+          <div class="navbar__colorChanger">
+            <button class="colorChanger__btn">
+              <img
+                class="colorChanger__img"
+                src="./images/icons/dark-theme.svg"
+                alt="color-logo"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="adaptive-navbar">
+        <div class="navbar__colorChanger">
+          <button class="colorChanger__btn">
+            <img
+              class="colorChanger__img"
+              src="./images/icons/dark-theme.svg"
+              alt="color-logo"
+            />
+          </button>
+        </div>
+
+        <div class="adaptive-navbar__header">
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./images/icons/logo.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="navbar__burger">
+            <div class="navbar__burger-line"></div>
+            <div class="navbar__burger-line"></div>
+            <div class="navbar__burger-line"></div>
+          </div>
+        </div>
+
+        <div class="adaptive-navbar__links">
+          <form class="adaptive-navbar__search">
+            <input
+              class="adaptive-navbar__input"
+              type="text"
+              placeholder="looking for something ?"
+            />
+            <button class="adaptive-navbar__btn navbar__search-btn">
+              <img src="./images/icons/search.svg" alt="search" />
+            </button>
+          </form>
+
+          <ul class="adaptive-navbar__list">
+            <li class="adaptive-navbar__item">
+              <a class="adaptive-navbar__link" href="#!">Home</a>
+            </li>
+            <li class="adaptive-navbar__item">
+              <a class="adaptive-navbar__link" href="#simbiots">Simbiotes</a>
+            </li>
+            <li class="adaptive-navbar__item">
+              <a class="adaptive-navbar__link" href="./comics.html">Comics</a>
+            </li>
+            <li class="adaptive-navbar__item">
+              <a class="adaptive-navbar__link" href="#donation">Donation</a>
+            </li>
+            <li class="adaptive-navbar__item">
+              <a class="adaptive-navbar__link" href="./films.html">Films</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- !NAVIGATION END -->
+    <!-- !HEADER END -->
+    <header class="header">
+      <video class="header__video" autoplay muted loop plays-inline>
+        <source src="./images/video/carnage.mp4" type="video/mp4" />
+      </video>
+      <div class="header__darkLayout"></div>
+
+      <div class="header__btn">
+        <a href="#!">Explore Films</a>
+      </div>
+    </header>
+    <!-- !HEADER END -->
+
+    <!-- !MAIN -->
+    <main class="main">
+      <!-- !EVENTS END -->
+      <section class="events section-padding">
+        <h2 class="events__title">Events</h2>
+        <div class="sliders">
+          <div class="events__slider"></div>
+        </div>
+      </section>
+      <!-- !EVENTS -->
+
+      <!-- !SIMBIOTS -->
+      <section class="simbiots section-padding" id="simbiots">
+        <!-- ! Cards -->
+        <div class="container">
+          <div class="cards"></div>
+        </div>
+        <!-- ! Cards end -->
+      </section>
+      <!-- !SIMBIOTS END -->
+
+      <!-- !DONATION  -->
+      <section class="donation section-padding" id="donation">
+        <div class="container">
+          <h3 class="donation__title">donation</h3>
+
+          <div class="donation__cards">
+            <div class="donation__card">
+              <div class="donation__img">
+                <a href="https://onlyfans.com/" target="_blank">
+                  <img src="./images/icons/onlyfans.png" alt="only fans" />
+                </a>
+              </div>
+              <div class="donation__content">
+                <p class="donation__content-text only-fans">only fans</p>
+              </div>
+            </div>
+
+            <div class="donation__card">
+              <div class="donation__img">
+                <a href="https://www.patreon.com/" target="_blank">
+                  <img src="./images/icons/patreon.png" alt="patreon" />
+                </a>
+              </div>
+              <div class="donation__content">
+                <p class="donation__content-text patreon">patreon</p>
+              </div>
+            </div>
+
+            <div class="donation__card">
+              <div class="donation__img">
+                <a href="#!" target="_blank">
+                  <img class="img" src="./images/icons/vk.png" alt="vk" />
+                </a>
+              </div>
+              <div class="donation__content">
+                <p class="donation__content-text vkontakte">vkontakte</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- !DONATION END -->
+    </main>
+    <!-- !MAIN END -->
+
+    <!-- !FOOTER FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__img">
+            <a href="./index.html">
+              <img
+                src="https://1.bp.blogspot.com/-sNV0s2K3BHw/YL466e_1B8I/AAAAAAAABP4/7FKY_j01xWsUi1K5hwbFUcFON2C3me_xACLcBGAsYHQ/s320/1AC09294-303D-48CB-9755-63B6643C3BD9.gif"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <div class="footer__menu">
+            <h3 class="footer__title">Menu</h3>
+            <ul class="footer__list">
+              <li>
+                <a class="footer__link" href="./index.html">home </a>
+              </li>
+              <li>
+                <a class="footer__link" href="#simbiots">simbiotes </a>
+              </li>
+              <li>
+                <a class="footer__link" href="./comics.html">comics </a>
+              </li>
+              <li>
+                <a class="footer__link" href="#donation">donation </a>
+              </li>
+              <li>
+                <a class="footer__link" href="./films.html">films </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__about">
+            <h3 class="footer__title">about Us</h3>
+            <p class="footer__about-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatum, iste. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Blanditiis excepturi amet molestiae consectetur
+              soluta ratione sapiente fugit, nulla beatae in!
+            </p>
+            <p class="footer__about-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatum, iste. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Totam vero sint quae, aut autem reiciendis
+              deleniti sit atque tenetur deserunt?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__social">
+        <a class="footer__social-links" href="#!">
+          <img src="./images/icons/vk.svg" alt="" />
+        </a>
+        <a class="footer__social-links" href="#!">
+          <img src="./images/icons/twitch.svg" alt="" />
+        </a>
+        <a class="footer__social-links" href="#!">
+          <img src="./images/icons/instagram.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+    <!-- !FOOTER FOOTER END -->
+
+    <!-- !SCROLL TO TOP -->
+    <div id="scrollTop" class="isShown hide">
+      <i class="far fa-arrow-alt-circle-up"></i>
+    </div>
+    <!-- !SCROLL TO TOP END -->
+    <div class="modal__background"></div>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- SLIDER SLICK -->
+    <script src="js/slick.min.js"></script>
+    <!-- !INDEX JS FILE -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
